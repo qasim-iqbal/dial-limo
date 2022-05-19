@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -11,15 +7,14 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="./CSS/style.css">
+
+		<script src="js/index.js"></script>
+
 		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
+
 		</noscript>
 	</head>
 	<body class="landing">
@@ -30,9 +25,7 @@
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<!-- <li><a href="generic.html">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li> -->
-						<!-- <li><a href="#" class="button special">Contact Now</a></li> -->
+						<li><a href="contact-form.html" class="button special">Book Now</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -43,7 +36,7 @@
 				<p>Luxorious cars at affordable rates. Call now to get a quote</p>
 				<ul class="actions">
 					<li>
-						<a class="big button" href="tel:+14168711296">(416)871-1296</a>
+						<a class="big button" href="tel:+14168711296" style="font-family: monospace;">(123) 456 - 7890</a>
 					</li>
 				</ul>
 			</section>
@@ -55,160 +48,107 @@
 						<h2>LIMOUSINE SERVICES</h2>
 						<p></p>
 					</header>
-					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<!-- <i class="icon big rounded color1 fa-cloud"></i> -->
-								<img width="350" height="250" src="images\prague-airport-transfers.jpg"></img>
-								<h3>AIRPORT</h3>
-								<p>We offer airport pickup and drop off service 24/7 and are always on time. </p>
-							</section>
+
+					<div class="row row-cols-1 row-cols-md-3">
+						<div class="col">
+						  <div class="card h-100">
+							<div class="card-body">
+								<img src="images\limo-Depositphotos_5827320_original.jpg" class="card-img-top" alt="...">
+								<h3 class="card-title">NIGHT OUT</h3>
+								<p class="card-text">Going to a party? or a prom night? Choose from one of our Luxorious black sedans</p>
+								<a href="#" class="btn btn-primary btn-view">View more</a>
+							</div>
+						  </div>
 						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<!-- <i class="icon big rounded color9 fa-desktop"></i> -->
-								<img width="350" height="250" src="images\limo-Depositphotos_5827320_original.jpg"></img>
-								<h3>NIGHT OUT</h3>
-								<p>Going to a party? or a prom night? Choose from one of our Luxorious black sedans</p>
-							</section>
+						<div class="col">
+						  <div class="card h-100">
+							<div class="card-body">
+								<img src="images\prague-airport-transfers.jpg" class="card-img-top rounded" alt="...">
+								<h3 class="card-title">AIRPORT</h3>
+								<p class="card-text">We offer airport pickup and drop off service 24/7 and are always on time.</p>
+								<a href="#" class="btn btn-primary btn-view">View more</a>
+							</div>
+						  </div>
 						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<!-- <i class="icon big rounded color6 fa-rocket"></i> -->
-								<img width="350" height="250" src="images\1509930751_dsc_0430_(1).jpg"></img>
-								<h3>WEDDING</h3>
-								<p>We offer a special 10% discount on wedding day services. So, Choose us to make you special day even better</p>
-							</section> 
+						<div class="col">
+						  <div class="card h-100">
+							<div class="card-body">
+								<img src="images\1509930751_dsc_0430_(1).jpg" class="card-img-top" alt="...">
+								<h3 class="card-title">WEDDING</h3>
+								<p class="card-text">We offer a special 10% discount on wedding day services.</p>
+								<a href="#" class="btn btn-primary btn-view">View more</a>
+							</div>
+						  </div>
 						</div>
 					</div>
 				</div>
 			</section>
 
 		<!-- Two -->
-			<!-- <section id="two" class="wrapper style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Lorem ipsum dolor sit</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
-					</header>
-					<section class="profiles">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Lorem ipsum</h4>
-								<p>Lorem ipsum dolor</p>
-							</section>
-							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dolores</h4>
-								<p>Ullam nihil repudi</p>
-							</section>
-							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Doloremque quo</h4>
-								<p>Harum corrupti quia</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dicta</h4>
-								<p>Et natus sapiente</p>
-							</section>
-						</div>
-					</section>
-					<footer>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button big">Lorem ipsum dolor sit</a>
-							</li>
-						</ul>
-					</footer>
-				</div>
-			</section> -->
+		<section id="one" class="wrapper style1 special">
+			<div class="container">
+				<header class="major">
+					<h2>OUR CHARTS</h2>
+					<p></p>
+				</header>
 
-		<!-- Three -->
-			<!-- <section id="three" class="wrapper style3 special">
-				<div class="container">
-					<header class="major">
-						<h2>Consectetur adipisicing elit</h2>
-						<p>Lorem ipsum dolor sit amet. Delectus consequatur, similique quia!</p>
-					</header>
+				<div class="row row-cols-1 row-cols-md-3">
+					<div class="col-sm-8 mx-auto">
+						<table class="table-responsive">
+							<thead>
+							  <tr>
+								<th scope="col">Ride</th>
+								<th scope="col">Per Hour Rate</th>
+								<th scope="col">Per Day Rate</th>
+								<th scope="col">FROM/TO AIRPORT</th>
+							  </tr>
+							</thead>
+							<tbody>
+							  <tr class="service-row">
+								<td>
+									<img src="images\2017-mercedes-benz-sprinter-2500-high-roof-passenger-van-angular-front.webp" class="photo-car" alt="...">
+									<h4 class="photo-name">Mercedes Van</h4>
+								</td>
+								<td class="service-price">$80</td>
+								<td class="service-price">$180 </td>
+								<td class="service-price">$60</td>
+							  </tr>
+							  <tr class="service-row">
+								<td>
+									<img src="images\2022-chevrolet-suburban-premier-suv-angular-front.webp" class="photo-car" alt="...">
+									<h4 class="photo-name">Chevrolet Suv</h4>
+								</td>
+								<td class="service-price">$90</td>
+								<td class="service-price">$210 </td>
+								<td class="service-price">$120</td>
+							  </tr>
+							  <tr class="service-row">
+								<td>
+									<img src="images\Lexus-ES-2018-dubai-rental_d383096c706e9fc4a76df850b7b68c9c.jpg" class="photo-car" alt="...">
+									<h4 class="photo-name">Lexsus Sedan</h4>
+								</td>
+								<td class="service-price">$75</td>
+								<td class="service-price">$150 </td>
+								<td class="service-price">$80</td>
+							  </tr>
+							</tbody>
+						  </table>
+					</div>
 				</div>
-				<div class="container 50%">
-					<form action="#" method="post">
-						<div class="row uniform">
-							<div class="6u 12u$(small)">
-								<input name="name" id="name" value="" placeholder="Name" type="text">
-							</div>
-							<div class="6u$ 12u$(small)">
-								<input name="email" id="email" value="" placeholder="Email" type="email">
-							</div>
-							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-							</div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input value="Send Message" class="special big" type="submit"></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</div>
-			</section> -->
+
+		</section>
 
 		<!-- Footer -->
 			<footer id="footer">
+
+				<!-- <link rel="stylesheet" href="./CSS/style.css"> -->
 				<div class="container">
-					<!-- <section class="links">
-						<div class="row">
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Lorem ipsum dolor</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Nesciunt itaque, alias possimus</a></li>
-									<li><a href="#">Optio rerum beatae autem</a></li>
-									<li><a href="#">Nostrum nemo dolorum facilis</a></li>
-									<li><a href="#">Quo fugit dolor totam</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u$(medium) 12u$(small)">
-								<h3>Culpa quia, nesciunt</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
-									<li><a href="#">Corporis, non aut rerum</a></li>
-									<li><a href="#">Laboriosam nulla voluptas, harum</a></li>
-									<li><a href="#">Facere eligendi, inventore dolor</a></li>
-								</ul>
-							</section>
-							<section class="3u 6u(medium) 12u$(small)">
-								<h3>Neque, dolore, facere</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Distinctio, inventore quidem nesciunt</a></li>
-									<li><a href="#">Explicabo inventore itaque autem</a></li>
-									<li><a href="#">Aperiam harum, sint quibusdam</a></li>
-									<li><a href="#">Labore excepturi assumenda</a></li>
-								</ul>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(small)">
-								<h3>Illum, tempori, saepe</h3>
-								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Recusandae, culpa necessita nam</a></li>
-									<li><a href="#">Cupiditate, debitis adipisci blandi</a></li>
-									<li><a href="#">Tempore nam, enim quia</a></li>
-									<li><a href="#">Explicabo molestiae dolor labore</a></li>
-								</ul>
-							</section>
-						</div>
-					</section> -->
+
 					<div class="row">
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
 								<li>&copy; Untitled. All rights reserved.</li>
-								<!-- <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-								<li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
+
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
