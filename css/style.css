@@ -1043,7 +1043,15 @@
 
 /* contact form */
 .form-box {
-	margin: 5rem;
+	padding: 3rem;
+}
+
+.form-box h2 {
+	color: #0dcaf0;
+	text-align: left;
+}
+.form-box label {
+	color: #0dcaf0;
 }
 #service-type {
 	width: 100%;
@@ -1055,8 +1063,9 @@
 	font-family: "Raleway", Helvetica, sans-serif;
 }
 .btn-group {
-	margin-left: 0.25rem;
+	/* margin-left: 0.25rem; */
 	text-align: center;
+	width: 100%;
 }
 
 .btn-priority {
@@ -1077,6 +1086,7 @@
 .form-label {
 	font-weight: bold;
 	font-family: "Raleway", Helvetica, sans-serif;
+	color: #0dcaf0;
 }
 
 .btn-submit {
@@ -1098,3 +1108,11 @@
 .icons{
 	margin-left: 18rem;
 }
+
+.form-container{
+	background-color: #383b43;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	max-width: 40rem;
+}
+
